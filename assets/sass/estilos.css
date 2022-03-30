@@ -1,0 +1,19 @@
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #ccc;
+}
+
+table tr, table th {
+  padding: 0.5rem;
+}
+
+table tr:nth-child(2n+2) {
+  background-color: #ffffcc;
+}
+
+table .moneda {
+  background-color: #e6f3ff;
+}
+/*# sourceMappingURL=estilos.css.map */

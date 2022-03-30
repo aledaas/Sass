@@ -4,11 +4,21 @@ $color-background: #ccc;
 $color-letra: #175f37;
 
 //uso de las variables
-body{
+// body{
+//     background-color: $color-background;
+// }
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse; //valor por defecto 'separated' lo cual genera que los bordes de cada elemento de la tabla se encuentren separados por un espacio en blanco
+    text-align: center;
     background-color: $color-background;
-}
-
-h1{
-    color:$color-letra;
-    font-family:$font;
+        tr,th{
+            padding: 0.5rem;
+        }
+        tr:nth-child(2n+2){
+            background-color: #ffffcc;
+        }
+        .moneda{
+            background-color: #e6f3ff;
+        }
 }
