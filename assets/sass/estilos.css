@@ -16,4 +16,10 @@ table tr:nth-child(2n+2) {
 table .moneda {
   background-color: #e6f3ff;
 }
+
+table th img {
+  width: 1.5vw;
+  height: 3vh;
+  float: left;
+}
 /*# sourceMappingURL=estilos.css.map */

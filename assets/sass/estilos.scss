@@ -3,6 +3,12 @@ $font: sans-serif, helvetica, arial, helvetica;
 $color-background: #ccc;
 $color-letra: #175f37;
 
+@mixin imagenes() {
+    width: 1.5vw;
+    height: 3vh;
+    float: left;
+}
+
 //uso de las variables
 // body{
 //     background-color: $color-background;
@@ -20,5 +26,10 @@ table{
         }
         .moneda{
             background-color: #e6f3ff;
+        }
+        th{
+            img{
+                @include imagenes();
+            }
         }
 }
