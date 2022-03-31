@@ -1,0 +1,8 @@
+@mixin encabezado($align, $bg, $font,$color,$padding) {
+    text-align: $align;
+    background-color: $bg;
+    font-family: $font;
+    color: $color;
+    padding: $padding;
+    
+}

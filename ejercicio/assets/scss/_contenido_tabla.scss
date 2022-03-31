@@ -1,0 +1,13 @@
+@mixin contenido($align, $font,$color,$padding) {
+    text-align: $align;
+    font-family: $font;
+    color: $color;
+    padding: $padding;
+    
+}
+@mixin tabla($collapse) {
+    border-collapse: $collapse;
+    tr:nth-child(even){
+        background-color: #FFC;
+    }
+}

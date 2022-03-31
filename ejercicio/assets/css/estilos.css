@@ -1,0 +1,55 @@
+.encabezado {
+  text-align: center;
+  background-color: rgba(175, 189, 216, 0.2);
+  font-family: arial;
+  color: black;
+  padding: 5px;
+}
+
+.encabezado_lateral {
+  text-align: left;
+  background-color: rgba(119, 218, 208, 0.3);
+  font-family: arial;
+  color: black;
+  padding: 5px;
+}
+
+td {
+  text-align: center;
+  font-family: arial;
+  color: rgb(7, 7, 7);
+  padding: 5px;
+}
+
+.tabla_borde {
+  border-collapse: collapse;
+}
+.tabla_borde tr:nth-child(even) {
+  background-color: #FFC;
+}
+
+.icon-euro2 {
+  color: #CFD846;
+  font-size: 20px;
+}
+
+.icon-dollar {
+  color: #2d3c80;
+  font-size: 20px;
+}
+
+.icon-libra-esterlina {
+  color: #2d3c80;
+  font-size: 20px;
+}
+
+.icon-yen {
+  color: #2d3c80;
+  font-size: 20px;
+}
+
+table {
+  margin: 100px auto;
+}
+
+/*# sourceMappingURL=estilos.css.map */
